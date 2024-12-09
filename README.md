@@ -33,6 +33,8 @@ Develop a professional website for the modeling agency that effectively showcase
 - Descriptions were directly integrated into the website’s HTML.
 
 ### Tools Used
+[**Flexbox**](Flexbox)
+- Flexbox makes it easy to create flexible and responsive layouts.
 
 [**HTML5**](https://www.w3schools.com/html/html_intro.asp)
 - Was used to structure the web page  

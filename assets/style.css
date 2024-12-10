@@ -1,0 +1,40 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Gantari", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #85946b; /* light blue */
+}
+
+
+#hero {
+    height: 520px;
+    width: 100%;
+    background: url(images/bohemian-8722478_1920\ \(1\).png) no-repeat center center/cover;
+    position: relative;
+    
+    
+}
+
+.nav-color {
+    font-size: 120%;
+    color: #632b0a ; 
+
+}
+#cover-text{
+   
+   background-color: rgba(175,82,33,0.5);
+   position: absolute; 
+   bottom: 30px;
+   right: 20px; 
+   margin-right: 2rem;
+}
+
+
+
+ 

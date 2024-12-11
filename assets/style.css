@@ -10,17 +10,36 @@
     --highlight-color: #416a8e; /* blue */
     --highlight-color-light: #85946b; /* light blue */
 }
+/* Global styles */
+
+body {
+    font-family: var(--primary-font);
+    
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
 
 
-#hero {
+#hero{
     height: 520px;
     width: 100%;
     background: url(images/bohemian-8722478_1920\ \(1\).png) no-repeat center center/cover;
     position: relative;
-    
-    
+    margin-bottom: 4rem;  
 }
-
+/* Navar section */
+.logo {
+    width: 70px;
+    height: 40px;
+    padding-right: 2rem;
+}
 .nav-color {
     font-size: 120%;
     color: #632b0a ; 
@@ -35,6 +54,30 @@
    margin-right: 2rem;
 }
 
+/* Carousel section */
+
+#carousel > h1{
+    margin-bottom: 4rem;
+
+}
+
+.c-item {
+    height: 50%;
+
+
+}
+.c-img {
+    height: 380px;
+    object-fit: cover;
+}
+
+/* Service section */
+
+/* Ajusting the height of the images on the card*/
+
+.ca-img {
+    height: 259.05px;
+}
 
 
  

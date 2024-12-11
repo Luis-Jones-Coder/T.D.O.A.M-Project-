@@ -1,7 +1,7 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
  
-# THE DREAM OF A MODEL >> Project
+# THE DREAM MODEL >> Project
 
 ## Project Purpose
 

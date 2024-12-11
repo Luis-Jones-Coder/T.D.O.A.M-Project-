@@ -62,12 +62,12 @@ h2 {
 }
 
 .c-item {
-    height: 50%;
+    height: 380px;
 
 
 }
 .c-img {
-    height: 380px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -77,6 +77,12 @@ h2 {
 
 .ca-img {
     height: 259.05px;
+}
+
+/* footer section */
+/* Added margin-top to push the footer */
+footer{
+    margin-top: 6rem;
 }
 
 

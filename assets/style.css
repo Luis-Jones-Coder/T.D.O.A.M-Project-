@@ -4,11 +4,11 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Gantari", cursive;
-    --primary-color: #3a2620; /* dark brown */
+    --primary-color: #c1530e; /* dark brown */
     --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
     --highlight-color-light: #85946b; /* light blue */
-}
+}#c1530e
 /* Global styles */
 * {
     margin: 0;
@@ -19,6 +19,12 @@ body {
     font-family: var(--primary-font);
     
 }
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
 
 h1,
 h2 {
@@ -28,6 +34,12 @@ h2 {
 h2 {
     margin-bottom: 2rem;
 }
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+/* Navbar sesction */
 
 
 #hero{
@@ -43,9 +55,13 @@ h2 {
     height: 40px;
     padding-right: 2rem;
 }
+#navbar {
+    background-color: #24262b; 
+}
 .nav-color {
     font-size: 120%;
-    color: #632b0a ; 
+    color: #632b0a ;
+    
 
 }
 #cover-text{
@@ -56,6 +72,36 @@ h2 {
    right: 20px; 
    margin-right: 2rem;
 }
+
+
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color)
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white
+}
+
+
+
+
 
 /* Carousel section */
 
@@ -88,8 +134,6 @@ main {
 }
 
 /* footer section */
-/* Added margin-top to push the footer */
-
 .footer{
     background-color: #24262b;
     padding: 70px 0;

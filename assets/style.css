@@ -121,7 +121,7 @@ main {
     font-size: 18px;
     color: #fff;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     position: relative;
 
 }
@@ -140,5 +140,56 @@ main {
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
+ /* Styling the list a  */
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+ /* Givin the list a animation when mouse is hover */
+.footer-col ul li a:hover {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #fff;
+}
+
+/* Responsive */
+
+/*  */
+@media(max-width:574px){
+    .footer-col {
+        width: 100%;
+    }
+}
+/*  */
+@media(max-width: 767px){
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
 
  

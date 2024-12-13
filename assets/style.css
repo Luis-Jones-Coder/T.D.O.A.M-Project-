@@ -150,6 +150,33 @@ h2 {
     height: 259.05px;
 }
 
+/* Gallery section */
+
+.containerg {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.gallery {
+    display: flex;
+    gap: 40px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
 /* footer section */
 .footer{
     background-color: #24262b;
@@ -249,7 +276,15 @@ h2 {
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
+        
     }
+
+    /* Gallery section */
+    .gallery {
+        flex-direction: column;
+    }
+    
+
 }
 
 @media(max-width: 991px){

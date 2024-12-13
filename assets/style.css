@@ -42,6 +42,20 @@ h2 {
 /* Navbar sesction */
 
 
+
+/* Navar section */
+/* .logo {
+    width: 70px;
+    height: 40px;
+    padding-right: 2rem;
+} */
+
+#navbar {
+    background-color: #24262b; 
+}
+
+
+
 #hero{
     height: 600px;
     width: 100%;
@@ -49,24 +63,15 @@ h2 {
     position: relative;
     margin-bottom: 4rem;  
 }
-/* Navar section */
-.logo {
-    width: 70px;
-    height: 40px;
-    padding-right: 2rem;
-}
-#navbar {
-    background-color: #24262b; 
-}
-.nav-color {
-    font-size: 120%;
-    color: #632b0a ;
-    
 
-}
-#cover-text{
+.hero-text {
+    color: #3a522f;
    
-   background-color: rgba(175,82,33,0.5);
+}
+
+#cover-text{
+   background-color: rgb(255,255,255, 0.25);
+   
    position: absolute; 
    bottom: 30px;
    right: 20px; 
@@ -185,7 +190,7 @@ main {
     margin-bottom: 10px;
 }
  /* Styling the list a  */
-.footer-col ul li a {
+.footer-col ul li  {
     font-size: 16px;
     text-transform: capitalize;
     color: #fff;
@@ -196,7 +201,7 @@ main {
     transition: all 0.3s ease;
 }
  /* Givin the list a animation when mouse is hover */
-.footer-col ul li a:hover {
+.footer-col ul li:hover {
     color: #fff;
     padding-left: 10px;
 }
@@ -232,6 +237,13 @@ main {
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgb(255,255,255, 0.25);
+        backdrop-filter: blur(10px);
     }
 }
 

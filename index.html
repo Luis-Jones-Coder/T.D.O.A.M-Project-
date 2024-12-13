@@ -23,34 +23,60 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation Section -->
-    <nav class="navbar navbar-expand-lg" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" id="navbar">
         <div class="container">
-            <a class="navbar-brand" href="#"> <img src="assets/images/logo1.png" alt="The Dream Model logo"
-                    class="logo">THE DREAM MODEL </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active nav-color" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-color" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-color" href="#">Contact</a>
-                    </li>
-                </ul>
+            
+            <!-- Logo -->
+          <a class="navbar-brand fs-4" href="index.html" id="logo">THE DREAM MODEL</a>
+            
+          <!-- Toggle btn -->
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- SideBar -->
+          <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+            <!-- SideBar Header -->
+            <div class="offcanvas-header text-white border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
         </div>
-    </nav>
+      </nav>
     <header>
         <section id="hero">
             <div id="cover-text" class="col-sm-4">
-                <h2>Dreaming of becoming a model?</h2>
-                <h3>We can make your dream a reality.
+                <h2 class="hero-text">Dreaming of becoming a model?</h2>
+                <h3 class="hero-text">We can make your dream a reality.
                 </h3>
             </div>
         </section>
@@ -211,31 +237,31 @@
                 <div class="footer-col">
                     <ul>
                         <h4>Opening Days</h4>
-                        <li><a href="#">Days</a></li>
-                        <li><a href="#">Mon</a></li>
-                        <li><a href="#">Tue-Thur</a></li>
-                        <li><a href="#">Fri-Sat a</a></li>
-                        <li><a href="#">Sun</a></li>
+                        <li>Days</li>
+                        <li>Mon</li>
+                        <li>Tue-Thur</li>
+                        <li>Fri-Sat </li>
+                        <li>Sun</li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <ul>
-                        <h4>Hours</h4>
-                        <li><a href="#">Closed</a></li>
-                        <li><a href="#">11am to 8pm</a></li>
-                        <li><a href="#">11am to 7pm</a></li>
-                        <li><a href="#">10am to 5pm</a></li>
-                        <li><a href="#">10am to 5pm</a></li>
+                        <h4>Open Hours</h4>
+                        <li>Closed</li>
+                        <li>11am to 8pm</li>
+                        <li>11am to 7pm</li>
+                        <li>10am to 5pm</li>
+                        <li>10am to 5pm</li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <ul>
                         <h4>Contact us</h4>
-                        <li><a href="#">THE DREAM MODEL</a></li>
-                        <li><a href="#">123 Splot Road</a></li>
-                        <li><a href="#">Cardiff, CF12 3TH</a></li>
-                        <li><a href="#">>743 345 6789</a></li>
-                        <li><a href="#">the-dream@model.co.uk</a></li>
+                        <li>THE DREAM MODEL</li>
+                        <li>123 Splot Road</li>
+                        <li>Cardiff, CF12 3TH</li>
+                        <li>>743 345 6789</li>
+                        <li>the-dream@model.co.uk</li>
 
                     </ul>
                 </div>

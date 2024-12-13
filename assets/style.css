@@ -19,6 +19,11 @@ body {
     font-family: var(--primary-font);
     
 }
+
+main {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
 h1,
 h2,
 h3 {
@@ -44,11 +49,6 @@ h2 {
 
 
 /* Navar section */
-/* .logo {
-    width: 70px;
-    height: 40px;
-    padding-right: 2rem;
-} */
 
 #navbar {
     background-color: #24262b; 
@@ -66,6 +66,7 @@ h2 {
 
 .hero-text {
     color: #3a522f;
+    font-weight: 900;
    
 }
 
@@ -78,6 +79,9 @@ h2 {
    margin-right: 2rem;
 }
 
+.join-btn {
+    background-color: #d17112;
+}
 
 /* Buttons */
 
@@ -126,11 +130,19 @@ h2 {
 }
 
 /* Service section */
-/* giving some spaces */
-main {
-    margin-top: 6rem;
-    margin-bottom: 3rem;
+.card {
+    transition: transform .5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+ .card:hover {
+    transform: scale(1.05);
+ }
+ .card-text {
+    padding-bottom: 0;
+ }
+
+
+
 
 /* Ajusting the height of the images on the card*/
 

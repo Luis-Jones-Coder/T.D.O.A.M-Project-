@@ -10,7 +10,7 @@ Develop a professional website for the modeling agency that effectively showcase
 
 
 ### Specific Objectives
-**1. Showcase Model Portfolio:** **Provide a high-quality visual gallery that highlights models who have worked with the agency and previous projects.
+**1. Showcase Model Portfolio:** Provide a high-quality visual gallery that highlights models who have worked with the agency and previous projects.
 
 **2. Facilitate Contact:** Include a contact form and key information sections (such as location and operating hours) so potential clients can easily get in touch with the agency.
 
@@ -56,6 +56,17 @@ Develop a professional website for the modeling agency that effectively showcase
 [**Fontawesome**](https://fontawesome.com/kits)
 
 - Was added to add the icons in the page.
+
+### Deployment
+**1. Code Review:** Ensured all code is clean, error-free, and well-documented.
+
+**2. Local Testing:** Local Testing: Conducted extensive testing in a local environment to confirm all functionalities work correctly.
+
+**3. Verifying the Deployment:** Visual Check: Browsed the deployed site to ensure it looks and works correctly.
+
+Functional Testing: Tested all critical functionalities (forms,links, responsive fuctionality) to confirm they work as expected.
+
+Monitoring: Set up monitoring tools to ensure the site is available and functioning correctly at all times (e.g., Google Analytics, UptimeRobot).
 
 ## Acknowledgements
 

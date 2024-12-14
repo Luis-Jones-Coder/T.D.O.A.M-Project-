@@ -60,7 +60,8 @@ h2 {
     width: 100%;
     background: url(images/bohemian-8722478_1920\ \(1\).png) no-repeat center center/cover;
     position: relative;
-    margin-bottom: 4rem;  
+    margin-bottom: 4rem
+      
 }
 
 .hero-text {
@@ -130,10 +131,10 @@ h2 {
 
 
 }
-
-
-img {
-     max-width: 100%; height: auto;}
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
 
 /* Service section */
 .card {

@@ -5,10 +5,9 @@
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Gantari", cursive;
     --primary-color: #c1530e; /* dark brown */
-    --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #85946b; /* light blue */
-}#c1530e
+    
+}
 /* Global styles */
 * {
     margin: 0;
@@ -80,7 +79,14 @@ h2 {
 }
 
 .join-btn {
-    background-color: #d17112;
+    background-color: rgba(255,255,255,0.2);
+    color: #fff;
+    transition: all 0.5s ease
+}
+
+.join-btn:hover {
+    background-color: #fff;
+    color: #24262b;
 }
 
 /* Buttons */
@@ -175,8 +181,64 @@ h2 {
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    transition: transform .5s;
 }
+
+.photo img:hover {
+    transform: scale(1.05);
+}
+
+/* Form Section */
+.body{
+    background: url(images/model-5173119_1280.jpg);
+    background-size: cover;
+}
+.form-container{
+    background: rgb(0,0,0, 0.5);
+   
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+}
+
+.form-title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+
+form label  {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-btn {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.5s ease
+}
+
+.form-btn:hover {
+    color: #24262b;
+    background-color: #fff;
+}
+
+
+
+.gender-category label,
+.gender-category input,
+ .form-sumbmit-btn input{
+    cursor: pointer;
+}
+
+
+
+
 /* footer section */
 .footer{
     background-color: #24262b;
@@ -243,6 +305,7 @@ h2 {
 .footer-col ul li:hover {
     color: #fff;
     padding-left: 10px;
+    cursor: pointer;
 }
 
 .footer-col .social-links a {

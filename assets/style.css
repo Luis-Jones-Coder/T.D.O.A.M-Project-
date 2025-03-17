@@ -187,11 +187,20 @@ h2 {
     border-radius: 5px;
     object-fit: cover;
     padding-bottom: 40px;
-    transition: transform .5s;
+    
+    filter:  gray;
+    -webkit-filter:  grayscale(1);
+    -webkit-transition: all 1.8s ease-in-out;
+
+    
 }
 
 .photo img:hover {
-    transform: scale(1.05);
+    filter:  none;
+   -webkit-filter:  grayscale(0);
+   -webkit-transform:  scale(1.02);
+
+
 }
 
 /* Form Section */

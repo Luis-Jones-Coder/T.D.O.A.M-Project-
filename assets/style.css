@@ -50,7 +50,8 @@ h2 {
 /* Navar section */
 
 #navbar {
-    background-color: #24262b; 
+    background-color: #24262b;
+    position: absolute; 
 }
 
 

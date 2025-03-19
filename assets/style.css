@@ -73,7 +73,9 @@ h2 {
     width: 100%;
     background: url(images/bohemian-8722478_1920\ \(1\).png) no-repeat center center/cover;
     position: relative;
-    margin-bottom: 4rem
+    margin-bottom: 4rem;
+    object-fit: cover;
+
       
 }
 
@@ -142,23 +144,67 @@ h2 {
 
 /* Service section */
 .card {
+    position: relative;
+    width: 340px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
     transition: transform .5s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    /* to make background transparent */
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+    cursor: pointer;
+   
+}
+
+.card:hover .card-body{
+    right: 0;
+    
+}
+.card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 50px;
+    font-weight:600;
+    text-transform: uppercase;
+
+}
+.card-text{
+    font-size: 14px;
+    font-weight: 500;
+}
+
  .card:hover {
     transform: scale(1.025);
  }
- .card-text {
-    padding-bottom: 0;
- }
 
+ 
 
 
 
 /* Ajusting the height of the images on the card*/
 
 .ca-img {
-    height:200px;
+    height: 259.05px;
 }
 
 /* Gallery section */
@@ -198,7 +244,7 @@ h2 {
 .photo img:hover {
     filter:  none;
    -webkit-filter:  grayscale(0);
-   -webkit-transform:  scale(1.02);
+   -webkit-transform:  scale(1.0);
 
 
 }
